@@ -10,7 +10,7 @@ class SimpleComponent extends React.Component {
       mood: "happy"
     };
   }
-  
+
 
   handleClick = () => {
     const newMood = this.state.mood === 'happy' ? 'sad' : 'happy';
@@ -26,7 +26,7 @@ class SimpleComponent extends React.Component {
       </div>
     )
   }
-  
+
 }
 
 export default SimpleComponent
