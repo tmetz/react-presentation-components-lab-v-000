@@ -6,7 +6,7 @@ class SimpleComponent extends React.Component {
 
   constructor(props) {
     super(props);
-    state = {
+    this.state = {
       mood: "happy"
     };
   }
