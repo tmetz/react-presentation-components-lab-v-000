@@ -2,17 +2,12 @@
 
 import React, { Component } from 'react'
 
-class SimpleComponent extends React.Component {
+const SimplerComponent = (props) =>  {
 
-
-  render() {
-    return (
       <div onClick = {props.handleClick}>
         I am just happy
       </div>
-    )
+    
   }
 
-}
-
-export default SimplerComponent
+export default SimplerComponent;
