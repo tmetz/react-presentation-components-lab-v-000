@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 const SimplerComponent = (props) =>  {
 
-      <div onClick = {props.handleClick}>
+      <div onClick = {props.handleClick} style={{backgroundColor: this.props.color}}>
         I am just happy
       </div>
 
