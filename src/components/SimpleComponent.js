@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 class SimpleComponent extends React.Component {
 
   constructor(props) {
-    super(proprs);
+    super(props);
     state = {
       mood: "happy"
     };
