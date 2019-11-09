@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 import SimpleComponent from './components/SimpleComponent';
 import SimplerComponent from './components/SimplerComponent';
 
-const color = "white"
+var color = "white"
 
 changeColor = () => {
-  const color = "red"
+  color = "red"
 }
 
 ReactDOM.render(
