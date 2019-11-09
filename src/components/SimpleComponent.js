@@ -24,7 +24,7 @@ class SimpleComponent extends React.Component {
         mood: 'happy'
       })
     }
-    
+
   }
 
   render() {
